@@ -1,5 +1,5 @@
 import React from 'react';
-import './Aboutme.css';
+import '../Aboutme.css';
 import DR from '../images/Davinci.png';
 import Blender from '../images/Blender.png';
 import Java from '../images/Java.png';

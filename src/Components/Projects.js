@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Projects.css';
+import '../Projects.css';
 import CloseBtn from '@mui/icons-material/Close';
 import Img1 from '../images/JapaneseHouse.png';
 import Img2 from '../images/JapaneseInside.png';
