@@ -92,7 +92,7 @@ const Projects = () => {
     }
 
     return (
-        <>
+        <div>
         <div className={model? "model open" : "model"}>
             <img src={tempimgSrc} />
             <div>
@@ -111,7 +111,7 @@ const Projects = () => {
                 )
             })}
         </div>
-        </>
+        </div>
     )
 }
 
