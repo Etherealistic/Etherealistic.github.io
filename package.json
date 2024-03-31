@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://Etherealistic.github.io",
+  "homepage": "https://www.Etherealistic.github.io",
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.11.1",
