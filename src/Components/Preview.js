@@ -4,6 +4,7 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import '../Profile.css';
 
 
+
 const Preview = ({slides}) => {
   const [current, setCurrent] = useState(0)
   const length = slides.length

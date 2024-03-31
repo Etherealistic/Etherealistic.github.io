@@ -12,7 +12,6 @@ import Img8 from '../images/Ballista.png';
 import Img9 from '../images/SFM.png';
 import Img10 from '../images/BlenderAnim.png';
 
-
 const Projects = () => {
     let data = [
         {

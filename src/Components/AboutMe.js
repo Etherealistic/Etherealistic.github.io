@@ -11,7 +11,7 @@ import After from '../images/After.png';
 
 export default function AboutMe() {
     return (
-        <>
+        <div>
         <div className='case'>
             <div className='aboutBox'>
                 <h1 className='aboutMeTitle' style={{fontSize: "48px"}}>About Me</h1>
@@ -72,6 +72,6 @@ export default function AboutMe() {
                 </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
