@@ -1,0 +1,36 @@
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    min-width: 20%;
+    margin-top: 75px;
+    position: relative;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgba(106, 106, 106, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.contactBox h1,p {
+    color: white;
+}
+
+.coolButton:link, .coolButton:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .coolButton:hover, .coolButton:active {
+    background-color: red;
+  }
