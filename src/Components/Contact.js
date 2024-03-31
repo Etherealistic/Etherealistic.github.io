@@ -1,6 +1,5 @@
 import React from 'react';
-import './Contact.css';
-import DR from '../images/Davinci.png';
+import 'Contact.css';
 
 export default function Contact() {
     return (
