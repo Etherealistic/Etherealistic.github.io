@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {PreviewData} from 'PreviewData';
+import {PreviewData} from './PreviewData';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import 'Profile.css';
 
