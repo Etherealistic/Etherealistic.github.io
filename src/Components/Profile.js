@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import '../Profile.css';
+=======
+import './Profile.css';
+>>>>>>> a6cfd4b3f356568a40ed5db6df67df67647641d4
 import logo from '../images/me.png';
 
 const profileImage = {
