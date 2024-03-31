@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Profile.css';
+import './Profile.css';
 import logo from '../images/me.png';
 
 const profileImage = {
@@ -8,7 +8,7 @@ const profileImage = {
 
 export default function Profile() {
     return (
-        <>
+        <div>
             <div className='imgBox'>
                 <img className="avatar" src={logo} alt={'Photo of ' + profileImage.name} />
                 <div className='titleBox'>
@@ -16,6 +16,6 @@ export default function Profile() {
                     <h2>Designer and innovator</h2>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
