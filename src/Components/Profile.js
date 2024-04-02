@@ -12,7 +12,7 @@ export default function Profile() {
             <div className='imgBox'>
                 <img className="avatar" src={logo} alt={'Photo of ' + profileImage.name} />
                 <div className='titleBox'>
-                    <h1 style={{fontSize:"48px"}}>Francesco Giorcelli</h1>
+                    <h1 style={{ fontSize: "48px" }}>Francesco Giorcelli</h1>
                     <h2>Designer and innovator</h2>
                 </div>
             </div>

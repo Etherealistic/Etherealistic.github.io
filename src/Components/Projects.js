@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../Projects.css';
 import CloseBtn from '@mui/icons-material/Close';
 import Img1 from '../images/JapaneseHouse.png';
@@ -93,24 +93,24 @@ const Projects = () => {
 
     return (
         <div>
-        <div className={model? "model open" : "model"}>
-            <img src={tempimgSrc} />
-            <div>
-                <h1>{title}</h1>
-                <p>{description}</p>
-                <a className="projectButton" href={link} target="_blank">Link to the video</a>
+            <div className={model ? "model open" : "model"}>
+                <img src={tempimgSrc} />
+                <div>
+                    <h1>{title}</h1>
+                    <p>{description}</p>
+                    <a className="projectButton" href={link} target="_blank">Link to the video</a>
+                </div>
+                <CloseBtn onClick={() => setModel(false)} />
             </div>
-            <CloseBtn onClick={()=> setModel(false)} />
-        </div>
-        <div className="projects">
-            {data.map((item, index) => {
-                return (
-                    <div className="pics" key={index} onClick={() => getImg(item)}>
-                        <img src={item.imgSrc} style={{width: "100%"}} />
-                    </div>
-                )
-            })}
-        </div>
+            <div className="projects">
+                {data.map((item, index) => {
+                    return (
+                        <div className="pics" key={index} onClick={() => getImg(item)}>
+                            <img src={item.imgSrc} style={{ width: "100%" }} />
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     )
 }
