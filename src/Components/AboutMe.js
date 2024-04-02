@@ -18,7 +18,7 @@ export default function AboutMe() {
                 <p style={{fontSize: "22px"}}>My name is Francesco Giorcelli, and I am a student of Creative Technology at the University of Twente.
                     My main strengths are my leadership, creativity and determination, which I use to ensure that every project I work on is successful.</p>
                     <p style={{fontSize: "22px"}}>I strive for perfection, and constantly try to greatly improve all the skills I practice, through hard work and strong presence.
-                    I can learn new skills incredibly quickly, meaning I have a broad knowledge in many sectors including computer science, video editing, 3D modeling. animation, and music to name a few.
+                    I can learn new skills incredibly quickly, meaning I have a broad knowledge in many sectors including computer science, video editing, 3D modeling, animation, and music to name a few.
                 </p>
             </div>
             <div className='skillsBox'>
