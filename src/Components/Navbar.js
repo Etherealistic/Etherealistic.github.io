@@ -91,10 +91,10 @@ const NavBar = () => {
         <NavItem><a href="#contact">Contact</a></NavItem>
       </DesktopNav>
       <MobileNav style={{ display: isMobileNavOpen ? 'flex' : 'none' }}>
-        <NavItem><a href="/">Home</a></NavItem>
-        <NavItem><a href="/">Projects</a></NavItem>
-        <NavItem><a href="/">About me</a></NavItem>
-        <NavItem><a href="/">Contact</a></NavItem>
+        <NavItem><a href="#home">Home</a></NavItem>
+        <NavItem><a href="#projects">Projects</a></NavItem>
+        <NavItem><a href="#about">About me</a></NavItem>
+        <NavItem><a href="#contact">Contact</a></NavItem>
       </MobileNav>
     </Nav>
   );
