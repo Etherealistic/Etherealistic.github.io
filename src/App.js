@@ -21,7 +21,6 @@ function App() {
           </div>
           <div id="projects" />
           <hr style={{height: "30px", opacity: "0.2", borderWidth: "0", color: "black", backgroundColor: "black", marginTop: "25px"}}></hr>
-          <h1 style={{fontSize: "48px", color: "white", marginTop: "25px"}}>My projects</h1>
           <Preview slides={PreviewData} />
           <Projects />
           <div id="about" />

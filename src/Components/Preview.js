@@ -21,6 +21,8 @@ const Preview = ({slides}) => {
   }
 
   return (
+    <>
+    <h1 style={{fontSize: "48px", color: "white", marginTop: "25px"}}>My projects</h1>
     <section className="slider">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
@@ -40,7 +42,7 @@ const Preview = ({slides}) => {
         );
       })}
     </section>
-  )
+  </>)
 }
 
 export default Preview
