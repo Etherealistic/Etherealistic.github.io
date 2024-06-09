@@ -11,6 +11,7 @@ import Img7 from '../images/SFM3.png';
 import Img8 from '../images/Ballista.png';
 import Img9 from '../images/SFM.png';
 import Img10 from '../images/BlenderAnim.png';
+import Img11 from '../images/FL.png';
 
 const Projects = () => {
     let data = [
@@ -87,6 +88,14 @@ const Projects = () => {
             description: 'A still of an animation created in Blender using models and lighting made by me, which includes a walk and upper body movements. Materials such as the wall and the floor are copyright free.',
             linkName: "",
         },
+        {
+            id: 11,
+            imgSrc: Img11,
+            title: 'Music Composition',
+            description: 'Through a workshop, I learned to use the Digital Audio Workstation (DAW) FL Studio, so that I could create music. I took the opportunity to create a few initial compositions, of varying genres. My goal with this music is to then be able to share it with everyone, copyright free so that others can use it. Included below is my first song.',
+            url: "https://youtu.be/8CTMekfadkA",
+            linkName: "Link to a song",
+        }
     ]
     const [model, setModel] = useState(false);
     const [tempimgSrc, setTempImgSrc] = useState('');

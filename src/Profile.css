@@ -14,7 +14,8 @@
 .avatar {
   border-radius: 50%;
   height: auto;
-  width: 30%;
+  width: auto;
+  max-width: 30%;
   margin-left: 5%;
 }
 
@@ -37,7 +38,7 @@
 
 .image {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 32vw;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -104,8 +105,9 @@
   opacity: 1;
   position: absolute;
   color: white;
-  bottom: 45px;
-  right: 15px;
+  font-size: 1.5vw;
+  bottom: 5vh;
+  right: 0.75vw;
 }
 
 .sepLine {
@@ -115,8 +117,8 @@
   width: 90%;
   height: 2px;
   border-width: 0;
-  bottom: 50px;
-  right: 15px;
+  bottom: 5.5vh;
+  right: 0.75vw;
   color: white;
   background-color: white;
 }
@@ -125,8 +127,11 @@
   opacity: 1;
   position: absolute;
   color: white;
-  bottom: 15px;
-  right: 15px;
+  font-size: 1vw;
+  text-align: right;
+  top: 5.5vh;
+  right: 0.25vw;
+  ;
 }
 
 @keyframes fadein {
