@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.beb78588.css",
-    "main.js": "/static/js/main.79e56836.js",
+    "main.css": "/static/css/main.56fbc55e.css",
+    "main.js": "/static/js/main.2d6b436f.js",
     "static/media/SFM2.png": "/static/media/SFM2.e2e76a21dc50d93fea8c.png",
     "static/media/SFM3.png": "/static/media/SFM3.183f7c89e81bd01c2388.png",
     "static/media/BlenderWoman.png": "/static/media/BlenderWoman.974cf555fffed4e57195.png",
     "static/media/BlenderAnim.png": "/static/media/BlenderAnim.d49e839489515c52f7dc.png",
     "static/media/me.png": "/static/media/me.c1d49eefb7325149bcc2.png",
     "static/media/Ballista.png": "/static/media/Ballista.24543f4db8df4b577516.png",
+    "static/media/Animation.png": "/static/media/Animation.7ed2cc15392074aa901e.png",
     "static/media/JapaneseHouse.png": "/static/media/JapaneseHouse.47464652866047dd2861.png",
     "static/media/JapaneseInside.png": "/static/media/JapaneseInside.250225582d9550900e84.png",
     "static/media/SFM.png": "/static/media/SFM.d2e13b057b63a08c5eab.png",
+    "static/media/FL.png": "/static/media/FL.c046857cd323cb5321ef.png",
     "static/media/Davinci.png": "/static/media/Davinci.c254ac9a3306bb28ea0b.png",
     "static/media/TheRemag.png": "/static/media/TheRemag.c2cbf069b8aeabdbfebc.png",
     "static/media/Python.png": "/static/media/Python.cbc66cd7219508abfa03.png",
@@ -22,11 +24,11 @@
     "static/media/Java.png": "/static/media/Java.5e4d03b16aedefc99cbb.png",
     "static/media/HTML.png": "/static/media/HTML.34786bee14427e7e25ba.png",
     "index.html": "/index.html",
-    "main.beb78588.css.map": "/static/css/main.beb78588.css.map",
-    "main.79e56836.js.map": "/static/js/main.79e56836.js.map"
+    "main.56fbc55e.css.map": "/static/css/main.56fbc55e.css.map",
+    "main.2d6b436f.js.map": "/static/js/main.2d6b436f.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb78588.css",
-    "static/js/main.79e56836.js"
+    "static/css/main.56fbc55e.css",
+    "static/js/main.2d6b436f.js"
   ]
 }
