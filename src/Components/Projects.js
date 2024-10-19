@@ -12,6 +12,7 @@ import Img8 from '../images/Ballista.png';
 import Img9 from '../images/SFM.png';
 import Img10 from '../images/BlenderAnim.png';
 import Img11 from '../images/FL.png';
+import Img12 from '../images/Animation.png';
 
 const Projects = () => {
     let data = [
@@ -95,6 +96,14 @@ const Projects = () => {
             description: 'Through a workshop, I learned to use the Digital Audio Workstation (DAW) FL Studio, so that I could create music. I took the opportunity to create a few initial compositions, of varying genres. My goal with this music is to then be able to share it with everyone, copyright free so that others can use it. Included below is my first song.',
             url: "https://youtu.be/8CTMekfadkA",
             linkName: "Link to a song",
+        },
+        {
+            id: 12,
+            imgSrc: Img12,
+            title: 'Full 3D Animation',
+            description: 'I have previously animated, but never using a live reference, instead acting it out in the moment. Any attempt at animation I had previously done was barebones and lackluster, which is why I wanted to try and make something longer than just a few seconds, using a proper reference.',
+            url: "https://www.youtube.com/watch?v=VsWzbZsjm2E",
+            linkName: "Link to the full animation",
         }
     ]
     const [model, setModel] = useState(false);
