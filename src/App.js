@@ -27,6 +27,7 @@ function App() {
           <AboutMe />
           <div id="contact" />
           <Contact />
+          <br></br>
         </body>
       </div>
     </div>

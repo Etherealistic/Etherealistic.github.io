@@ -15,10 +15,11 @@ export default function AboutMe() {
             <div className='case'>
                 <div className='aboutBox'>
                     <h1 className='aboutMeTitle' style={{ fontSize: "48px" }}>About Me</h1>
-                    <p style={{ fontSize: "22px" }}>My name is Francesco Giorcelli, and I am a student of Creative Technology at the University of Twente.
-                        My main strengths are my leadership, creativity and determination, which I use to ensure that every project I work on is successful.</p>
-                    <p style={{ fontSize: "22px" }}>I strive for perfection, and constantly try to greatly improve all the skills I practice, through hard work and strong presence.
-                        I can learn new skills incredibly quickly, meaning I have a broad knowledge in many sectors including computer science, video editing, 3D modeling, animation, and music to name a few.
+                    <p style={{ fontSize: "22px" }}>Human-Computer Interaction student specializing in creative ideation and product development, with a personal interest in visual arts and design.
+                        Strong leadership skills and public relations, with a focus on team synergy.
+                    </p>
+                    <p style={{ fontSize: "22px" }}>Strong presentation and communication skills, developed over years of public speaking and musical performances. Native proficiency, both written and oral in English, French and Italian.
+                        Fast learning to a competent level in any environment.
                     </p>
                 </div>
                 <div className='skillsBox'>
